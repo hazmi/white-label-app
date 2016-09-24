@@ -13,7 +13,7 @@ if(app){
         process.exit(1);
       }
       console.log("Config file updated successfully!");
-      console.log(`Running react-native iOS for "${app}"...`);
+      console.log(`Running react-native for "${app}"...`);
     });
   } catch (e) {
     console.error(`Error: config not found for "${app}".`);

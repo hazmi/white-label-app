@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app/config/loader.js && node node_modules/react-native/local-cli/cli.js run-ios"
+    "start-ios": "node app/config/loader.js && node node_modules/react-native/local-cli/cli.js run-ios",
+    "start-android": "node app/config/loader.js && node node_modules/react-native/local-cli/cli.js run-android"
   },
   "dependencies": {
     "react": "15.3.1",
